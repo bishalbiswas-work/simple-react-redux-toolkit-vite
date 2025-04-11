@@ -9,7 +9,7 @@ export default function Counter() {
 
     return (<>
         <h1>{count}</h1>
-        <h3>Hello</h3>
+        {/* <h3>Hello</h3> */}
         <button onClick={() => { dispatch(increment()) }}>+1</button>
         <button onClick={() => { dispatch(decrement()) }}>-1</button>
         <button onClick={() => dispatch(incrementByAmount(5))}>+5</button>
